@@ -1,0 +1,3 @@
+#!/bin/sh
+MESSAGE=$(cowsay "$(fortune archlinux)")
+Darklock -m "$MESSAGE" && xset -dpms
